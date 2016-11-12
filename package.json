@@ -1,0 +1,38 @@
+{
+  "name": "dahlia-queue",
+  "version": "1.0.0",
+  "description": "Reliable pub-sub with Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive ./test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lhtrieu87/dahlia-queue.git"
+  },
+  "keywords": [
+    "redis",
+    "pubSub",
+    "queue"
+  ],
+  "author": "Le Hong Trieu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lhtrieu87/dahlia-queue/issues"
+  },
+  "homepage": "https://github.com/lhtrieu87/dahlia-queue#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "lodash": "^4.16.6",
+    "redis": "^2.6.3",
+    "rx": "^4.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  }
+}
